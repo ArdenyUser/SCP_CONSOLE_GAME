@@ -46,7 +46,7 @@ if code == "OMNI":
         while False:
           option = input("1: FIRE 2: GIVE NOTICE 3: DONE [ENTER OPTION NO.] ") 
           if option == "1":
-            class == input("What level will you fire: ")
+            class = input("What level will you fire: ")
             if class == "5": 
               fire5 = "1"
               print("SUCCESS")
