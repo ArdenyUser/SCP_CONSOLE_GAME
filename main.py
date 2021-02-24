@@ -46,9 +46,6 @@ if code == "OMNI":
       print("You may edit levels, fire people, and accept test and veto them. Your Inter code is 6701")
       print("Type inter to DOC fire or give status to someone.")
     if x == "inter":
-      if code == "OMNI":
-        False
-        while False:
           option = input("1: FIRE 2: GIVE NOTICE 3: DONE [ENTER OPTION NO.] ") 
           if option == "1":
             classx = input("What level will you fire: ")
