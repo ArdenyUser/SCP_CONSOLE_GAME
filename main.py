@@ -11,6 +11,9 @@ if code == "4":
   print("Type status to learn about your notice, or logout to leave.")
   True
   while True:
+    if fire4 == "1":
+      False
+      import main
     x = input("RESEARHCER$ ")
     if x == "status":
       print(notice4)
@@ -22,6 +25,9 @@ if code == "5":
   print("Type status to learn about your notice, or logout to leave.")
   True
   while True:
+    if fire5 == "1":
+      False
+      import main
     x = input("HELPER$ ")
     if x == "status":
       print(notice5)
@@ -46,19 +52,19 @@ if code == "OMNI":
         while False:
           option = input("1: FIRE 2: GIVE NOTICE 3: DONE [ENTER OPTION NO.] ") 
           if option == "1":
-            class = input("What level will you fire: ")
-            if class == "5": 
+            classx = input("What level will you fire: ")
+            if classx == "5": 
               fire5 = "1"
               print("SUCCESS")
-            if class == "4":
+            if classx == "4":
               fire4 = "1"
               print("SUCCESS")
           if option == "2":
-            class = input("Enter level to give notice to: ")
-            if class == "5":
+            classx = input("Enter level to give notice to: ")
+            if classx == "5":
               data = input("DATA: ")
               notice5 = data
-            if class == "4":
+            if classx == "4":
               data = input("DATA: ")
               notice4 = data
            
