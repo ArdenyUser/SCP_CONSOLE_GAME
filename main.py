@@ -69,4 +69,5 @@ if code == "OMNI":
             if classx == "4":
               data = input("DATA: ")
               notice4 = data
+            
 
