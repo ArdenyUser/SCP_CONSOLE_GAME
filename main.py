@@ -1,4 +1,3 @@
-import SCP_DATA as scp
 fire5 = "0"
 fire4 = "0"
 notice5 = "NONE"
@@ -67,5 +66,4 @@ if code == "OMNI":
             if classx == "4":
               data = input("DATA: ")
               notice4 = data
-           
-scp.invalid()
+
