@@ -6,6 +6,9 @@ print("Welcome to the SCP Console!")
 print("Enter in your access code:")
 code = input("CODE: ")
 if code == "4":
+  if fire4 == "1":
+      False
+      import main
   print("LOGGING IN AS RESEARCHER")
   print("Type status to learn about your notice, or logout to leave.")
   True
@@ -20,6 +23,9 @@ if code == "4":
       False
       import main
 if code == "5":
+  if fire5 == "1":
+      False
+      import main
   print("LOGGING IN AS OMNI ASSISTENT")
   print("Type status to learn about your notice, or logout to leave.")
   True
